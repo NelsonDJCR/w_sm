@@ -1,0 +1,39 @@
+//
+// Custom Main
+//
+// Add your own styles or override existing ones
+//
+// This file is included last, so you have access
+// to all Bootstrap and OneUI functions/mixins/styles etc
+// --------------------------------------------------
+
+// If you have many custom styles, you can create and import additional files
+// For example you can create _component1.scss and include it as follows:
+// @import 'component1';
+
+
+div > video {
+  bottom: 0;
+  position: absolute;
+  pointer-events: none;
+  right: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background-size: cover;
+  max-width: none;
+}
+
+.tint {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url("//fonts.googleapis.com/icon?family=Material+Icons");
+@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
+

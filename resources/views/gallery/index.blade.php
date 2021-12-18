@@ -1,0 +1,1 @@
+<img src="{{$photos[0]->getUrl('thumb')}}" alt="">
